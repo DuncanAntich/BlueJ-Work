@@ -1,3 +1,7 @@
-#README.md
+# README.md
 
-##Chapter02 ready to be reviewed.
+## READY TO BE REVIEWED
+- First Item
+
+## IN PROGRESS
+-First Item
