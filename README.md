@@ -1,7 +1,8 @@
 # README.md
 
 ## READY TO BE REVIEWED
-- First Item
+- Lab02
+- Lab03
 
 ## IN PROGRESS
--First Item
+
