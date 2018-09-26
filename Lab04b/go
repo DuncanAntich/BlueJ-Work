@@ -1,0 +1,12 @@
+rm *.java
+rm *.class
+rm *.txt
+rm *.htm
+rm *.html
+rm *.jcp
+rm *.jcw
+rm *.jcu
+rm *.doc
+rm *.docx
+cp Backup/* .
+
