@@ -18,10 +18,10 @@ public class Lab04av100
         double monthlyRate    = percentRate/12;
         double monthlyPercent = 1 + monthlyRate;
         double monthlyExpon   = Math.pow(monthlyPercent,numMonths);
-        double monthlyPayment = ((monthlyRate * monthlyExpon) / (monthlyExpon -1)) * principal;
+        double monthlyPayment = (double) Math.round((((monthlyRate * monthlyExpon) / (monthlyExpon -1)) * principal) * 100) / 100;
         double totalPayment   = monthlyPayment * numMonths;
         double totalInterest  = monthlyPayment * numMonths - principal;
-        double roundedMP      = (double) Math.round(monthlyPayment * 100) / 100;
+        double roundedMP      = (monthlyPayment);
         double roundedTP      = (double) Math.round(totalPayment * 100) / 100;
         double roundedTI      = (double) Math.round(totalInterest * 100) / 100;
 
