@@ -6,6 +6,8 @@
 -- Lab03 has labs in it now
 - Lab04a
 - Lab04b
+- Lab05
+
 
 ## IN PROGRESS
 
