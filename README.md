@@ -7,6 +7,8 @@
 - Lab04a
 - Lab04b
 - Lab05
+- Lab06
+
 
 
 ## IN PROGRESS
