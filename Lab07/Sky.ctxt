@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Sky
+comment1.params=g\ sky\ x\ y\ size
+comment1.target=void\ drawMoon(java.awt.Graphics,\ java.awt.Color,\ int,\ int,\ int)
+comment2.params=g\ width\ height
+comment2.target=void\ drawStars(java.awt.Graphics,\ int,\ int)
+numComments=3

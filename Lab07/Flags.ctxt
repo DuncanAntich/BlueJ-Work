@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Flags
+comment1.params=g\ x\ y\ width\ height
+comment1.target=void\ Italy(java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment2.params=g\ x\ y\ width\ height
+comment2.target=void\ Germany(java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment3.params=g\ x\ y\ width\ height\ top\ middle\ bottom
+comment3.target=void\ HTricolor(java.awt.Graphics,\ int,\ int,\ int,\ int,\ java.awt.Color,\ java.awt.Color,\ java.awt.Color)
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=House
+comment1.params=g\ x\ y
+comment1.target=void\ drawWindow(java.awt.Graphics,\ int,\ int)
+comment2.params=g\ x\ y\ width\ height
+comment2.target=void\ drawFloor(java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment3.params=g\ x\ y
+comment3.target=void\ drawDoor(java.awt.Graphics,\ int,\ int)
+comment4.params=g\ x\ y\ width\ height
+comment4.target=void\ drawRoof(java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment5.params=g\ x\ y\ width\ height
+comment5.target=void\ drawChimney(java.awt.Graphics,\ int,\ int,\ int,\ int)
+numComments=6
