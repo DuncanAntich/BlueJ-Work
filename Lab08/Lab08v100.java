@@ -22,6 +22,8 @@ public class Lab08v100
             String repeat = input.nextLine();
             notFinished = (repeat.equals("Y")) || (repeat.equals("y"));
             System.out.println();
+            
+
         }
         while (notFinished);
     }
@@ -40,11 +42,15 @@ public static boolean isPal(String s)
     {
         int leng = s.length();
         s = s.toLowerCase();
-        String rev = "";
+        String rev = "";        
         for(int count = leng; count>0; count--){
             rev += s.substring(count-1,count);
         }
-        if(rev.equals(s))
+        String trimmed = s.trim();
+        String purged = purge(s);
+        int trimLeng = trimmed.length();
+        int compLeng = trimLeng - leng;
+        if(rev.equals(s)&& !(trimmed.equals("")) && !(purged.equals("")) && compLeng==0)
             return true;      // This statement is provided to allow initial compiling.
         else
             return false;
@@ -58,7 +64,8 @@ public static boolean isPal(String s)
    private static boolean isLetter(String letter)
    {   
        String lowerLetter = letter.toLowerCase();
-       if(lowerLetter.compareTo("a")<=lowerLetter.compareTo("z"))
+
+       if(lowerLetter.compareTo("a") >= 0 && lowerLetter.compareTo("z") <= 0)
         return true;
        else
         return false;
@@ -69,17 +76,17 @@ public static boolean isPal(String s)
      * Postcondition: All non-letter characters are removed from s, and this "purged" String is returned.
     * Note:          >>>>> This method is only completed for the 100 point version  <<<<<
      */
-    private static String purge(String s)
+    static String purge(String s)
     {
       s.trim();
       int leng = s.length();
       String purged = "";
-      for(int count = leng; count<0; count--){
+      for(int count = leng; count>0; count--){
           String letter = s.substring(count-1,count);
-          if(isLetter(letter) == true)
-            purged+=letter;
+          if(isLetter(letter) == true )
+            purged += letter;
       }
-      return purged;        // This statement is provided to allow initial compiling.
+      return purged;
     }
    
    /*
@@ -97,12 +104,15 @@ public static boolean isPal(String s)
         for(int count = leng; count>0; count--){
             rev += purged.substring(count-1,count);
         }
-        if(isPal(s)==true)
-            return false;      // This statement is provided to allow initial compiling.
-        else if(rev.equals(purged))
+        if(isPal(s)==true||rev.equals("")){
+            return false; 
+        } // This statement is provided to allow initial compiling.
+        else if(rev.equals(purged)){
             return true;
-        else
+        }
+        else{
             return false;
+        }
     }
 
 }
