@@ -48,9 +48,7 @@ public static boolean isPal(String s)
         }
         String trimmed = s.trim();
         String purged = purge(s);
-        int trimLeng = trimmed.length();
-        int compLeng = trimLeng - leng;
-        if(rev.equals(s)&& !(trimmed.equals("")) && !(purged.equals("")) && compLeng==0)
+        if(rev.equals(s)&& !(trimmed.equals("")) && !(purged.equals("")) && purged.equals(s))
             return true;      // This statement is provided to allow initial compiling.
         else
             return false;
@@ -100,6 +98,7 @@ public static boolean isPal(String s)
         s.toLowerCase();
         String purged = purge(s);
         int leng = purged.length();
+        purged = purged.toLowerCase();
         String rev = "";
         for(int count = leng; count>0; count--){
             rev += purged.substring(count-1,count);
