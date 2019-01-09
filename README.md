@@ -10,6 +10,8 @@
 - Lab06
 - Lab07
 - Lab08
+- Lab09a
+
 
 ## IN PROGRESS
 
