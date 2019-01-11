@@ -11,6 +11,8 @@
 - Lab07
 - Lab08
 - Lab09a
+- Lab09b
+
 
 
 ## IN PROGRESS
