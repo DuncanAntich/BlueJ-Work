@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Shape
+comment1.params=g
+comment1.target=void\ drawShape(java.awt.Graphics)
+comment2.params=g
+comment2.target=void\ displayName(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ displayNumSides(java.awt.Graphics)
+comment4.params=g
+comment4.target=void\ draw(java.awt.Graphics)
+numComments=5
