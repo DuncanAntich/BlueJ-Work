@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Lab17avst
+comment0.text=\r\n\ 15/04/2016\ -\ modified\ by\ Bill\ Montana\ to\ "fix"\ the\ curly\ braces\ and\ line\ spacing\r\n\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ skip1()
+comment3.params=
+comment3.target=void\ skip2()
+comment4.params=
+comment4.target=void\ skip3()
+numComments=5
