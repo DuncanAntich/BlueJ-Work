@@ -17,5 +17,8 @@
 - Lab12a
 - Lab12b
 - Lab14a
+- Lab15a
+- Lab16
+
 ## IN PROGRESS
 

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ElevensGUIRunner
+comment0.text=\r\n\ This\ is\ a\ class\ that\ plays\ the\ GUI\ version\ of\ the\ Elevens\ game.\r\n\ See\ accompanying\ documents\ for\ a\ description\ of\ how\ Elevens\ is\ played.\r\n\r\n\ This\ is\ the\ original\ AP\ Elevens\ Lab\ Java\ program\ code.\r\n\ 03-26-15\ slightly\ altered\ by\ Leon\ Schram\ who\ likes\ curly\ braces\ aligned.\r\n\ \r\n\ 14-04-2016\ slightly\ altered\ again\ by\ Bill\ Montana\ who\ doesn't\ \:)\r\n\ \r\n\r\n\ DO\ NOT\ ALTER\ THIS\ CLASS\ FOR\ LAB16\!\!\!\!\!\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Plays\ the\ GUI\ version\ of\ Elevens.\r\n\ @param\ args\ is\ not\ used.\r\n
+numComments=2
