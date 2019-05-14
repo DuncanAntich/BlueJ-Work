@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Lab17bv110
+comment1.params=g
+comment1.target=void\ paint(java.awt.Graphics)
+comment2.params=g\ maxX\ maxY\ length\ width\ locFlag
+comment2.target=void\ drawSquares(java.awt.Graphics,\ int,\ int,\ int,\ int,\ int)
+numComments=3
